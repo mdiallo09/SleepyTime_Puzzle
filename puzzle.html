@@ -1,0 +1,53 @@
+<html>
+
+	<head>
+		<title>Fifteen Puzzle</title>
+		<meta charset="utf-8" />
+
+      <link rel="stylesheet" type="text/css" href="puzzle.css" />
+      <script type="text/javascript" src="puzzle.js"></script>
+
+        
+	</head>
+
+	<body>
+		
+
+		<center>
+         <h1>SleepyTime Puzzle!</h1>
+         <div id="table" style="display: table;">
+            <div id="row1" style="display: table-row;">
+               <div id="row11" class="tile1" onClick="clickTile(1,1);" ><span id ="number" value="1">1</span></div>
+               <div id="row12" class="tile2" onClick="clickTile(1,2);"><span id ="number">2</span></div>
+               <div id="row13" class="tile3" onClick="clickTile(1,3);"><span id ="number">3</span></div>
+               <div id="row14" class="tile4" onClick="clickTile(1,4);"><span id ="number">4</span></div>
+            </div>
+            <div id="row2" style="display: table-row;">
+               <div id="row21" class="tile5" onClick="clickTile(2,1);"><span id ="number">5</span></div>
+               <div id="row22" class="tile6" onClick="clickTile(2,2);"><span id ="number">6</span></div>
+               <div id="row23" class="tile7" onClick="clickTile(2,3);"><span id ="number">7</span></div>
+               <div id="row24" class="tile8" onClick="clickTile(2,4);"><span id ="number">8</span></div>
+
+            </div>
+            <div id="row3" style="display: table-row;">
+               <div id="row31" class="tile9" onClick="clickTile(3,1);"><span id ="number">9</span></div>
+               <div id="row32" class="tile10" onClick="clickTile(3,2);" ><span id ="number">10</span></div>
+               <div id="row33" class="tile11" onClick="clickTile(3,3);"><span id ="number">11</span></div>
+               <div id="row34" class="tile12" onClick="clickTile(3,4);"><span id ="number">12</span></div>
+            </div>
+            <div id="row4" style="display: table-row;">
+                <div id="row41" class="tile13" onClick="clickTile(4,1);"><span id ="number">13</span></div>
+                <div id="row42" class="tile14" onClick="clickTile(4,2);"><span id ="number">14</span></div>
+                <div id="row43" class="tile15" onClick="clickTile(4,3);"><span id ="number">15</span></div>
+                <div id="row44" class="tile16" onClick="clickTile(4,4);" ><span id ="number"></span></div>
+             </div>
+         </div>
+            <button id="shufflebutton" onClick="shuffle();">Shuffle</button>
+         </center>
+
+            
+   </body>
+   <div id = "W3C">
+      <img src = "html.PNG"> <img src = "css.PNG">
+   </div>
+</html>
